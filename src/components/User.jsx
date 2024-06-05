@@ -33,7 +33,7 @@ const User = () => {
          <div className="flex flex-col items-center justify-center">
             <h2>Name : {todo.name}</h2>
             <h3>Email : {todo.email}</h3>
-            <h4> Address: {todo.address.street},{todo.address.suite}{todo.address.city}</h4>
+            {/* <h4> Address: {todo.address.street},{todo.address.suite}{todo.address.city}</h4> */}
          </div>
         </div>
       ))}
