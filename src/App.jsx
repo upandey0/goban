@@ -10,6 +10,7 @@ const App = () => {
   return (
     <RecoilRoot>
         <Routes>
+          <Route path='' element={<UserPage/>}/>
           <Route path='/todos' element={<TodoPage />} />
           <Route path='/posts' element={<PostPage />} />
           <Route path='/users' element={<UserPage/>} />
